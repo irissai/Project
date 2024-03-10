@@ -1,0 +1,52 @@
+/* NavItems.css */
+/* Navbar.css */
+
+.active.main-menu {
+  background-color: #EEF3F6; /* สีพื้นหลังที่ต้องการเมื่อเมนูหลักถูกคลิก */
+  border-left: 6px solid #8A2BE2;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+  
+  .active.sub-menu {
+    background-color: #ffffff;
+    border-left: none;
+    color: #ffffff; 
+    font-weight: initial;
+  }
+  
+  
+  
+  .main-menu {
+    background-color: #ffffff;
+    font-weight: bolder;
+  }
+  
+  .sub-menu {
+    background-color: #EEF3F6; /* สีพื้นหลังที่ต้องการเมื่อเมนูหลักถูกคลิก */
+    border-left: 6px solid #8A2BE2;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+  
+  /* เพิ่ม CSS เพื่อปรับแต่ง ul li ของเมนูหลักให้ไม่มีส่วนกับเมนูย่อย */
+
+  
+  .main-menu li:hover {
+    background-color: #EEF3F6; /* เปลี่ยนสีพื้นหลังเมื่อเมนูหลักถูก hover */
+  }
+  .active.main-menu {
+    background-color: #EEF3F6; /* สีพื้นหลังเมื่อ active ในเมนูหลัก */
+    color: #404258; /* สีข้อความเมื่อ active ในเมนูหลัก */
+    font-weight: bold;
+  }
+  
+  .main-menu li:hover {
+    background-color: #EEF3F6; /* สีพื้นหลังเมื่อ hover ในเมนูหลัก */
+  }
+  
+  .sub-menu li:hover {
+    background-color: #ffffff; /* สีพื้นหลังเมื่อ hover ในเมนูย่อย */
+  }
+  

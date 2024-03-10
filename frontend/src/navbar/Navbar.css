@@ -1,0 +1,75 @@
+h2 {
+    font-size: 16px;
+    color: #8A2BE2;
+}
+p {
+    margin-bottom: 20px;
+    color: #4B0082;
+    margin-left: 10px;
+}
+
+nav {
+    padding: 60px 25px 0 25px;
+  }
+  
+  nav .ul1 {
+    position: relative;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    height: inherit;
+  }
+  
+  nav ul li {
+    position: relative;
+    list-style-type: none;
+    border-top: 1px solid #892be28f;
+    
+  }
+  
+  nav .ul1 li a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #404258;
+    padding: 15px 0 15px 10px;
+    font-size: 14px;
+    /* font-weight: bolder; */
+  }
+
+  /* nav ul li ul  {
+    position: absolute;
+  }
+   */
+  /* ปรับแค่ ul li ของเมนูหลักให้ไม่มีส่วนกับเมนูย่อย */
+  nav ul li ul {
+    height: inherit;
+    
+  }
+  nav ul li ul a {
+    padding: 10px 0 10px 10px !important;
+
+  }
+
+  nav ul li a.active {
+    color: #8A2BE2; /* สีของลิงก์ที่ถูกเลือก */
+  }
+
+  nav ul li:hover {
+    background-color: #EEF3F6; /* เปลี่ยนสีพื้นหลังเมื่อเมนูหลักถูก hover */
+  }
+
+  nav ul li a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #404258;
+    padding: 15px 0 15px 10px;
+    font-size: 14px;
+    font-weight: normal; /* ปรับเป็น normal หรือตามที่ต้องการ */
+  }
+  
+  nav ul li:hover a {
+    font-weight: bold; /* ปรับเป็น bold หรือตามที่ต้องการ */
+  }
+  
